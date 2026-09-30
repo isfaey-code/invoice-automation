@@ -1,0 +1,4 @@
+source_file,supplier,invoice_no,date,amount_ht,vat,amount_ttc,status,issues
+facture_ABC_2024-001.pdf,ABC Fournitures SARL,2024-001,2024-01-15,79000.0,11850.0,90850.0,OK,
+facture_OfficeMax_OM-9931.pdf,OfficeMax Maurice,OM-9931,2024-02-28,137400.0,20610.0,158010.0,OK,
+facture_TechPro_INV-5582.pdf,TechPro Solutions Ltd,INV-5582,2024-02-03,165000.0,24750.0,189750.0,OK,

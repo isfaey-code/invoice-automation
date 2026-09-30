@@ -1,0 +1,61 @@
+[
+  {
+    "source_file": "facture_ABC_2024-001.pdf",
+    "supplier": "ABC Fournitures SARL",
+    "invoice_no": "2024-001",
+    "date": "2024-01-15",
+    "amount_ht": 79000.0,
+    "vat": 11850.0,
+    "amount_ttc": 90850.0,
+    "status": "OK",
+    "issues": []
+  },
+  {
+    "source_file": "facture_OfficeMax_OM-9931.pdf",
+    "supplier": "OfficeMax Maurice",
+    "invoice_no": "OM-9931",
+    "date": "2024-02-28",
+    "amount_ht": 137400.0,
+    "vat": 20610.0,
+    "amount_ttc": 158010.0,
+    "status": "OK",
+    "issues": []
+  },
+  {
+    "source_file": "facture_TechPro_INV-5582.pdf",
+    "supplier": "TechPro Solutions Ltd",
+    "invoice_no": "INV-5582",
+    "date": "2024-02-03",
+    "amount_ht": 165000.0,
+    "vat": 24750.0,
+    "amount_ttc": 189750.0,
+    "status": "OK",
+    "issues": []
+  },
+  {
+    "source_file": "facture_Doublon_2024-001.pdf",
+    "supplier": "ABC Fournitures SARL",
+    "invoice_no": "2024-001",
+    "date": "2024-01-15",
+    "amount_ht": 79000.0,
+    "vat": 11850.0,
+    "amount_ttc": 90850.0,
+    "status": "EXCEPTION",
+    "issues": [
+      "Duplicate invoice number: 2024-001"
+    ]
+  },
+  {
+    "source_file": "facture_Erreur_totaux.pdf",
+    "supplier": "Global Supplies Co",
+    "invoice_no": "GS-7788",
+    "date": "2024-03-10",
+    "amount_ht": 60000.0,
+    "vat": 9000.0,
+    "amount_ttc": 99999.0,
+    "status": "EXCEPTION",
+    "issues": [
+      "Totals do not reconcile: HT 60000.0 + VAT 9000.0 != TTC 99999.0"
+    ]
+  }
+]
